@@ -18,7 +18,7 @@ To download/upload subs to/from YouTube, we're using [scripts from Khanova skola
 
 Get dependencies
 ```bash
-$ git submodule --init --recursive
+$ git submodule update --init --recursive
 $ go get -u github.com/google/myanmar-tools/clients/go
 $ go get -u github.com/Rabbit-Converter/Rabbit-Go
 ```
